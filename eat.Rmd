@@ -64,6 +64,8 @@ chisqtestGC(table1)
 
 The result of the chi-squared test show that we have a chi-squared statistic far beyond the degrees of freedom of 2 provided from the data. Additionally we do have a critical p-value in the data. There is a difference somewhere in the data
 
-
+```{r}
+fisherXY(mydata$race,mydata$eatout,printAll=TRUE,confL = 0.99)
+```
 
 
