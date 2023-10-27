@@ -54,7 +54,7 @@ table1 <- xtabs(~race + eatout, data=mydata)
 rowPerc(table1)
 ```
 
-
+The white race is eating out almost 20% more likely than black race, once again we see that white eat out at a higher frequency than the other races.
 
 
 
