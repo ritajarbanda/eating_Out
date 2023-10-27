@@ -69,3 +69,9 @@ fisherXY(mydata$race,mydata$eatout,printAll=TRUE,confL = 0.99)
 ```
 
 We see where that the critical p-value was located at the relation between the black and white race. We used show all the see all p-values associated with the combinations and this would indicate the only difference is located with "black" and "white" factors.
+
+# Conclusion and Discussiom
+
+The culmination of the data would suggest that there is a difference in the data, therefore we can reject the $H_0$ which would indicate that there is a statistically significant difference in the data. The graphical and numerical results both indicated that "white" factor eatout at a higher frequency than other factors. 
+The critical p vakue with a confidence interval of 99% only found a difference in the relationship between "black" and "white" factors. It would be 2.2 to 1 odds for this to have happened by chance alone. The data is also large enough so that we can generally omit any chance that is was due to sample error or small sample size.
+
