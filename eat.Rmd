@@ -68,4 +68,4 @@ The result of the chi-squared test show that we have a chi-squared statistic far
 fisherXY(mydata$race,mydata$eatout,printAll=TRUE,confL = 0.99)
 ```
 
-
+We see where that the critical p-value was located at the relation between the black and white race. We used show all the see all p-values associated with the combinations and this would indicate the only difference is located with "black" and "white" factors.
