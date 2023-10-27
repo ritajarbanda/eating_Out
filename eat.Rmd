@@ -37,7 +37,13 @@ glimpse(mydata)
 
 Looking at the data, we are comparing two categorical data types therefore we will use the CandP helper file for Cat~Cat. This will include a bar chart, the tidyverse barchart was used for its ability to show percentages vs ggplot2. Then we will look at numerical results using favstats and finally preform a chi squared test and a fisher exxact test via the fisherXY tool provided.
 
+# Results
 
+## Graphical Results
+
+```{r include = TRUE, echo = FALSE}
+barchartGC(~race + eatout,data=mydata, type="percent")
+```
 
 
 
